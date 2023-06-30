@@ -34,7 +34,7 @@
             <CocktailItem
                 ref="firstElement" 
                 class="first-item"
-                image="image-3.svg"
+                image="image3.svg"
                 indulgent="Indulgent harmony"
                 bold-name="Symphony"
                 regular-name="in Gold"
@@ -45,7 +45,7 @@
             <CocktailItem
                 ref="secondElement"
                 class="second-item"
-                image="image-8.svg"
+                image="image8.svg"
                 bold-name="Enchanted"
                 regular-name="Elixir"
                 ingredients="Berries, vodka, elderflower."
