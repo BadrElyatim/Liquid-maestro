@@ -1,6 +1,6 @@
 <script setup>
     const props = defineProps(['image', 'indulgent', 'boldName', 'regularName', 'ingredients', 'description'])
-    const image = 'src/assets/' + props.image
+    const image = '/assets/' + props.image
 </script>
 
 <template>
