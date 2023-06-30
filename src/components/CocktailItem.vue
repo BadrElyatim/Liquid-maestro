@@ -1,11 +1,11 @@
 <script setup>
     const props = defineProps(['image', 'indulgent', 'boldName', 'regularName', 'ingredients', 'description'])
-    const image = '/src/assets/image3.svg'
+    const image = 'src/assets/' + props.image
 </script>
 
 <template>
     <div class="item">
-        <img class="item__photo" :src="image" alt="">
+        <img class="item__photo" src="@/assets/image3.svg" alt="">
         <div class="item__info">
             <div class="item__name">
                 <p v-if="props.indulgent" class="indulgent">{{ props.indulgent }}</p>
