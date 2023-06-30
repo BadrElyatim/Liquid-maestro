@@ -41,7 +41,7 @@
                 ingredients="Aged bourbon, honey, ginger. "
                 description="Experience the symphony of flavors as aged bourbon blends seamlessly with the sweetness of honey & the subtle spice of ginger."
             />
-            <img @click="scroll" class="arrow" src="./icons/Circle Arrow.svg" alt="">
+            <img @click="scroll" class="arrow" src="./icons/Circle-Arrow.svg" alt="">
             <CocktailItem
                 ref="secondElement"
                 class="second-item"
